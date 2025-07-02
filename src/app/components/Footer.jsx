@@ -1,7 +1,7 @@
 "use client"
 import Link from 'next/link'
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'
-import { motion } from 'framer-motion' 
+import { motion } from 'framer-motion'
 
 const Footer = () => {
 
@@ -26,20 +26,19 @@ const Footer = () => {
     };
 
     return (
-        <motion.footer
-            className="bg-gray-900 text-gray-300"
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible" 
-            viewport={{ once: true, amount: 0.3 }} 
-        >
-            <div className="max-w-7xl mx-auto px-4 py-8">
+        <footer className="bg-gray-900 text-gray-300">
+            <motion.div
+                className="max-w-7xl mx-auto px-4 py-8"
+                variants={containerVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.3 }} >
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                     <motion.div variants={itemVariants}>
                         <h3 className="text-xl font-bold text-white">Ashish Vishwakarama</h3>
                         <p className="text-sm">Full Stack Developer</p>
                     </motion.div>
-                    <motion.div className="flex gap-6" variants={containerVariants}> 
+                    <motion.div className="flex gap-6" variants={containerVariants}>
                         <motion.div variants={itemVariants}>
                             <Link href="/" className="hover:text-blue-500 transition-colors">
                                 Home
@@ -66,7 +65,7 @@ const Footer = () => {
                             </Link>
                         </motion.div>
                     </motion.div>
-                    <motion.div className="flex gap-4" variants={containerVariants}> 
+                    <motion.div className="flex gap-4" variants={containerVariants}>
                         <motion.a
                             href="https://github.com/Ashish-Code-01"
                             target="_blank"
@@ -117,8 +116,8 @@ const Footer = () => {
                         © {new Date().getFullYear()} Ashish Vishwakarama. All rights reserved.
                     </p>
                 </motion.div>
-            </div>
-        </motion.footer>
+            </motion.div>
+        </footer>
     )
 }
 
