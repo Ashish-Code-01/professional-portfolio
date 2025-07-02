@@ -211,6 +211,18 @@ export default function Home() {
         </div>
       </section>
 
+      <div className='flex justify-center text-center mt-8 pb-16'> {/* Added pb-16 for padding at the bottom */}
+        <motion.a
+          href="/project"
+          className="inline-block px-8 py-4 bg-purple-600 text-white rounded-lg font-bold text-lg hover:bg-purple-700 transition-colors" // Made button larger and bolder
+          variants={buttonVariants}
+          whileHover="hover"
+          whileTap="tap"
+        >
+          Browse More Projects!
+        </motion.a>
+      </div>
+
       {/* --- */}
       <section className="py-16">
         <div className="container px-4 mx-auto">
