@@ -31,6 +31,14 @@ export const projects = [
         liveUrl: "https://wallpaperlibrary.netlify.app/"
     },
     {
+        title: "Feedback Hub",
+        description: "Dive into the World of Anonymous Feedback. Feedback Hub – Where your identity remains a secret.",
+        image: '/asset/projectIMG/feedbackhub.png',
+        technologies: ["React", "mongo DB", "Tailwind CSS", "vercel", "Next js", "Resend E-mail", "shadcnUi"],
+        githubUrl: "https://github.com/Ashish-Code-01",
+        liveUrl: "https://anonymous-message-pi.vercel.app/"
+    },
+    {
         title: "Trend Influncer",
         description: "Trend Influencer is a modern marketing agency website designed to connect brands with top social media influencers. It features a sleek, responsive UI, showcases influencer portfolios, and provides tools for campaign management and analytics. The platform streamlines collaboration between brands and influencers, making it easy to launch and track successful marketing campaigns.",
         image: '/asset/projectIMG/trendinfluencer.png',
