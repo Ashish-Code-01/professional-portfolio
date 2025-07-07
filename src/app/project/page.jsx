@@ -7,12 +7,12 @@ import { motion } from 'framer-motion' // Import motion
 
 export const projects = [
     {
-        title: "Blog Space",
-        description: "Blog Space is a blogging platform where users can create, read, and share blog posts. It features user authentication, post creation, and a clean UI.",
-        image: '/asset/projectIMG/blogspace.png',
-        technologies: ["React", "Next.js", "Tailwind CSS", "vercel", "typescript"],
+        title: "Trend Influncer",
+        description: "Trend Influencer is a modern marketing agency website designed to connect brands with top social media influencers. It features a sleek, responsive UI, showcases influencer portfolios, and provides tools for campaign management and analytics. The platform streamlines collaboration between brands and influencers, making it easy to launch and track successful marketing campaigns.",
+        image: '/asset/projectIMG/trendinfluencer.png',
+        technologies: ["Html", "Css", "JS", "React", "netlify"],
         githubUrl: "https://github.com/Ashish-Code-01",
-        liveUrl: "https://blog-space-five.vercel.app/"
+        liveUrl: "https://trend-influnce-marcketing-agency.netlify.app/"
     },
     {
         title: "Job Portal",
@@ -39,20 +39,20 @@ export const projects = [
         liveUrl: "https://anonymous-message-pi.vercel.app/"
     },
     {
-        title: "Trend Influncer",
-        description: "Trend Influencer is a modern marketing agency website designed to connect brands with top social media influencers. It features a sleek, responsive UI, showcases influencer portfolios, and provides tools for campaign management and analytics. The platform streamlines collaboration between brands and influencers, making it easy to launch and track successful marketing campaigns.",
-        image: '/asset/projectIMG/trendinfluencer.png',
-        technologies: ["Html", "Css", "JS", "React", "netlify"],
-        githubUrl: "https://github.com/Ashish-Code-01",
-        liveUrl: "https://trend-influnce-marcketing-agency.netlify.app/"
-    },
-    {
         title: "Protfolio",
         description: "A personal portfolio showcases your skills, experiences, and achievements. It's a curated collection of your best work, demonstrating your capabilities to potential employers, clients, or collaborators. It highlights your unique value proposition and career journey.",
         image: '/asset/projectIMG/portfolio.png',
         technologies: ["React", "frammer", "JS", "Tailwind CSS"],
         githubUrl: "https://github.com/Ashish-Code-01",
         liveUrl: "https://ashish-portfolio-01.netlify.app/"
+    },
+    {
+        title: "Blog Space",
+        description: "Blog Space is a blogging platform where users can create, read, and share blog posts. It features user authentication, post creation, and a clean UI.",
+        image: '/asset/projectIMG/blogspace.png',
+        technologies: ["React", "Next.js", "Tailwind CSS", "vercel", "typescript"],
+        githubUrl: "https://github.com/Ashish-Code-01",
+        liveUrl: "https://blog-space-five.vercel.app/"
     },
     {
         title: "Guess the Word",
