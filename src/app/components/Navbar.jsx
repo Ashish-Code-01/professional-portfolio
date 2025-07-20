@@ -9,7 +9,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className='flex justify-center items-center backdrop-blur-sm bg-gray-900 w-full fixed top-0 left-0 z-50'>
+        <nav className='flex justify-center items-center backdrop-blur-sm bg-gray-900 w-full fixed top-0 left-0 z-50 mt-10'>
             <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}

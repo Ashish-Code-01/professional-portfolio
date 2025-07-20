@@ -242,6 +242,17 @@ const AboutPage = () => {
                             variants={cardVariants}
                             whileHover="hover"
                         >
+                            <h3 className="text-xl font-semibold text-blue-500">Degree Education (Bsc.Cs)</h3>
+                            <p className="text-lg text-gray-300 mt-2">Seth M.K. Degree College of Science</p>
+                            <p className="text-gray-400">2025 - 2028</p>
+                            <p className="text-gray-400 mt-2">Percentage: On-Going</p>
+                        </motion.div>
+
+                        <motion.div
+                            className="p-6 rounded-xl bg-gray-800/50 backdrop-blur-sm"
+                            variants={cardVariants}
+                            whileHover="hover"
+                        >
                             <h3 className="text-xl font-semibold text-blue-500">Higher Secondary Education (12th)</h3>
                             <p className="text-lg text-gray-300 mt-2">Vidya Varidhi Vidalaya & jr. college, Mumbai</p>
                             <p className="text-gray-400">2024 - 2025</p>
