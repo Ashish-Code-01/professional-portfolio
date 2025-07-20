@@ -9,12 +9,12 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className='flex justify-center items-center backdrop-blur-sm bg-gray-900 w-full fixed top-0 left-0 z-50 mt-10'>
+        <nav className='flex justify-center items-center backdrop-blur-sm bg-gray-900 w-full  z-50'>
             <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, ease: 'easeOut' }}
-                className='flex justify-center items-center text-xl bold h-16  w-full max-w-5xl'
+                className='flex justify-center items-center text-xl bold h-16  w-full max-w-5xl  mt-10'
             >
                 {/* Hamburger for mobile */}
                 <div className="absolute left-4 md:hidden">
