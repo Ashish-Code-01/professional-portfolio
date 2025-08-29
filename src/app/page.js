@@ -82,7 +82,7 @@ export default function Home() {
 
   return (
     <main className="bg-gray-900 text-white min-h-screen relative overflow-hidden">
-      <section className="container mx-auto px-4 relative z-10 mt-20">
+      <section className="container mx-auto px-4 relative z-10">
         <motion.div
           className="flex flex-col-reverse lg:flex-row items-center min-h-[700px] py-16"
           variants={containerVariants}

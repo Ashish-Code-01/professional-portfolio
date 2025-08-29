@@ -102,7 +102,7 @@ const Page = () => { // Renamed from 'page' to 'Page' for convention
 
     return (
         <div className="min-h-screen bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto mt-10">
+            <div className="max-w-7xl mx-auto ">
                 <motion.h2
                     className="text-3xl font-extrabold text-white text-center mb-12"
                     initial="hidden"
